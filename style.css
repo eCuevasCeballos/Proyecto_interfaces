@@ -99,6 +99,13 @@ body {
   border-radius: 50%;
   background-color: white;
 }
+.round-2{
+  width: 25px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: white;
+}
 .round:focus {
   background-color: green;
 }
