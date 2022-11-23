@@ -106,7 +106,7 @@ body {
   border-radius: 50%;
   background-color: white;
 }
-.round:focus {
+.round:focus, .round-2 {
   background-color: green;
 }
 .not-displayed {
