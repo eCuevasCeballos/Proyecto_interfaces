@@ -100,15 +100,17 @@ body {
   background-color: white;
 }
 .round-2 {
-  width: 25px;
-  height: 25px;
-  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  border: 3px solid white;
   border-radius: 50%;
-  background-color: white;
+  background-color: #1f1d22;
 }
-.round:focus,
-.round-2:focus {
+.round:focus {
   background-color: green;
+}
+.round-2:focus {
+  background-color: purple;
 }
 .not-displayed {
   display: none;
@@ -120,8 +122,7 @@ body {
   width: auto;
   height: 100px;
   background-color: #1f1d22;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
 }
 .games-item {
   display: flex;
@@ -139,9 +140,6 @@ body {
   width: 20px;
   height: 20px;
   align-self: center;
-}
-.undisplayed-text {
-  display: none;
 }
 
 /* Accordion */
