@@ -99,14 +99,15 @@ body {
   border-radius: 50%;
   background-color: white;
 }
-.round-2{
+.round-2 {
   width: 25px;
   height: 25px;
   border: 1px solid black;
   border-radius: 50%;
   background-color: white;
 }
-.round:focus, .round-2:focus {
+.round:focus,
+.round-2:focus {
   background-color: green;
 }
 .not-displayed {
@@ -138,6 +139,9 @@ body {
   width: 20px;
   height: 20px;
   align-self: center;
+}
+.undisplayed-text {
+  display: none;
 }
 
 /* Accordion */
