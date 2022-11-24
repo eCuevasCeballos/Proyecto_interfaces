@@ -98,6 +98,7 @@ body {
   border: 1px solid black;
   border-radius: 50%;
   background-color: white;
+  cursor: pointer;
 }
 .round-2 {
   width: 20px;
@@ -105,6 +106,7 @@ body {
   border: 3px solid white;
   border-radius: 50%;
   background-color: #1f1d22;
+  cursor: pointer;
 }
 .round:focus {
   background-color: green;
@@ -140,6 +142,35 @@ body {
   width: 20px;
   height: 20px;
   align-self: center;
+}
+.filter-bar {
+  justify-content: center;
+  padding-left: 25px;
+  background-color: #ff0000;
+}
+.filter {
+  width: 25px;
+  height: 25px;
+  stroke: white;
+  cursor: pointer;
+}
+.filter-text {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+  font-size: 1.2rem;
+}
+
+.filter:hover {
+  width: 35px;
+  height: 35px;
+}
+.g-item {
+  transition: background-color 1s ease;
+  cursor: pointer;
+}
+.g-item:hover {
+  background-color: #0f0f0f;
 }
 
 /* Accordion */
@@ -227,7 +258,7 @@ body {
   color: white;
   cursor: pointer;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1750px) {
   .time,
   .likes {
     display: none;
@@ -238,7 +269,15 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
   .time,
-  .likes {
+  .likes,
+  .filter-text {
     display: none;
+  }
+  .round {
+    width: 15px;
+    height: 15px;
+  }
+  .round-btn {
+    margin-top: -30px;
   }
 }
